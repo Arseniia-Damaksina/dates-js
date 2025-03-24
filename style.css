@@ -16,7 +16,7 @@ body {
 }
 
 .exercises {
-  width: 30%;
+  width: 25%;
   margin: 50px auto;
   display: flex;
   flex-direction: column;
