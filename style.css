@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bolder;
+}
+
+.exercises {
+  width: 30%;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.exercise {
+  background: #eaeaea;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.exercise h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #b03737;
+}
+
+.exercise p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.exercise button {
+  padding: 10px 15px;
+  background: #b03737;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.exercise button:hover {
+  background: #912c2c;
+}
+
+.exercise input[type="number"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.clock {
+  display: flex;
+  width: 1100px;
+  height: 550px;
+  background-color: #eaeaea;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+}
+
+.clock__date {
+  width: 35%;
+  height: 85%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 0 4%;
+}
+
+.clock__day {
+  color: white;
+  background-color: #b03737;
+  width: 100%;
+  height: 20%;
+  border: 5px solid #912c2c;
+  border-bottom: none;
+  border-radius: 65px 65px 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+}
+
+.clock__day-number {
+  height: 60%;
+  border-left: 5px solid #d3d3d3;
+  border-right: 5px solid #d3d3d3;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 115px;
+}
+
+.clock__month {
+  color: white;
+  background-color: #b03737;
+  width: 100%;
+  height: 20%;
+  border: 5px solid #912c2c;
+  border-top: none;
+  border-radius: 0 0 65px 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+}
+
+.clock__time {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #474747;
+}
+
+.clock__hours {
+  font-size: 165px;
+}
+
+.clock__seconds {
+  padding-top: 53px;
+  font-size: 95px;
+}
